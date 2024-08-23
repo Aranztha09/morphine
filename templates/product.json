@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -49,6 +58,20 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "popup_EeXBTy": {
+          "type": "popup",
+          "settings": {
+            "text": "Politicas de devoluciones",
+            "page": "politica-de-devoluciones"
+          }
+        },
+        "popup_adNcVU": {
+          "type": "popup",
+          "settings": {
+            "text": "Detalles de envio",
+            "page": "detalles-de-envio"
+          }
         }
       },
       "block_order": [
@@ -59,7 +82,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "popup_EeXBTy",
+        "popup_adNcVU"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -80,7 +105,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Productos relacionados",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
