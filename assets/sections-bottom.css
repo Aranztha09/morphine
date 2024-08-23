@@ -1,0 +1,26 @@
+.container-section-bottom {
+    display: flex;
+    width: 100%;
+    padding: 100px 60px;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-section-bottom .item{
+    width: 20%;
+    min-width: 200px;
+}
+
+.container-section-bottom .item .img-item{
+    display: flex;
+    height: 52px;
+    width: 52px;
+    margin: auto;
+}
+
+.container-section-bottom .item .title-item, .description-item {
+    text-align: center;
+    color: #000;
+    font-family: 'Assistant';
+}

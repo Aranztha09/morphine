@@ -1,0 +1,70 @@
+.container-section-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 45px 0;
+}
+
+.container-section-cards .card {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    gap: 20px;
+}
+
+.container-section-cards .card .img-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-section-cards .card .info-card {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 10px;
+}
+
+.container-section-cards .card .info-card .title-card {
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Assistant';
+}
+
+.container-section-cards .card .info-card .description-card{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Assistant';
+}
+
+.container-section-cards .card .info-card .btn-card {
+    display: flex;
+    width: 106px;
+    height: 30px;
+    text-decoration: none;
+    color: #525252;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 1px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px){
+    .container-section-cards .card .info-card .title-card {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px){
+    .container-section-cards {
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+    .container-section-cards .card {
+        width: 100%;
+        height: 400px;
+    }
+}

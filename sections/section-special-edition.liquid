@@ -1,0 +1,25 @@
+{{ 'sections-special-edition.css' | asset_url | stylesheet_tag }}
+
+<section class="container-section-special-edition">
+    <div class="info-special-edition">
+        <p class="top-title">Limited Time Offer</p>
+        <h2 class="title-special-edition">Special Edition</h2>
+        <p class="description-special-edition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p class="description2">Buy This T-shirt At 20% Discount, Use Code OFF20</p>
+        <a class="btn-special-edition" href="">Shop Now</a>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "sections-special-edition",
+  "settings": [
+  ],
+  "presets": [
+    {
+      "category": "Content",
+      "name": "special-edition"
+    }
+  ]
+}
+{% endschema %}

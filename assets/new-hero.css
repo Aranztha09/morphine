@@ -1,0 +1,72 @@
+.container-section-new-hero {
+    position: relative;
+}
+
+.container-section-new-hero .main-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.container-section-new-hero .container-info{
+    position: absolute;
+    top: calc(50% - 150px);
+    left: 80px;
+}
+
+.container-section-new-hero .container-info .title {
+    color: #fff;
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 66px;
+    font-family: 'Assistant';
+    margin: 0;
+}
+
+.container-section-new-hero .container-info .sub-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.container-section-new-hero .container-info .container-btns {
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.container-section-new-hero .container-info .container-btns .btn{
+    display: flex;
+    max-width: 45%;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-new-hero .container-info .container-btns .btn:hover {
+    background-color: #8686866b;
+}
+
+@media (max-width:1080px){
+    .container-section-new-hero .container-info .title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:768px){
+    .container-section-new-hero .container-info{
+        left: 20px;
+    }
+}
+
+@media (max-width:481px){
+    .container-section-new-hero .container-info{
+        width:80%;
+    }
+    .container-section-new-hero .container-info .title {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,64 @@
+{{ 'new-hero.css' | asset_url | stylesheet_tag }}
+
+<section class="container-section-new-hero">
+    <img class="main-img" src="{{ section.settings.image_banner | img_url: 'master' }} " alt="" srcset="">
+    <div class="container-info">
+        <h1 class="title">{{ section.settings.title }}</h1>
+        <h2 class="sub-title">{{ section.settings.sub-title }}</h2>
+        <div class="container-btns">
+            <a href="{{ section.settings.url-button-shop }}" class="btn">{{ section.settings.text-button-shop }}</a>
+            <a href="{{ section.settings.url-button-find }}" class="btn">{{ section.settings.text-button-find }}</a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "new-hero",
+  "settings": [
+    {
+        "type": "image_picker",
+        "id": "image_banner",
+        "label": "Image banner"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Raining Offers For Hot Summer!"
+    },
+    {
+        "type": "text",
+        "id": "sub-title",
+        "label": "Sub title",
+        "default": "25% Off On All Products"
+    },
+    {
+        "type": "url",
+        "id": "url-buttom-shop",
+        "label": "Url button shop"
+    },
+    {
+        "type": "text",
+        "id": "text-button-shop",
+        "label": "Text button shop"
+    },
+    {
+        "type": "url",
+        "id": "url-buttom-find",
+        "label": "Url button find"
+    },
+    {
+        "type": "text",
+        "id": "text-button-find",
+        "label": "Text button find"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Content",
+      "name": "new-hero"
+    }
+  ]
+}
+{% endschema %}

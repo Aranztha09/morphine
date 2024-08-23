@@ -1,0 +1,41 @@
+{{ 'sections-cards.css' | asset_url | stylesheet_tag }}
+<section class="container-section-cards">
+    <div class="card">
+        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/women-fashion-free-img.webp?v=1724409214" alt="" srcset="">
+        <div class="info-card">
+            <h3 class="title-card">20% Off On Tank Tops</h3>
+            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+            <a class="btn-card" href="">Shop Now</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/men-fashion-free-img.webp?v=1724409184" alt="" srcset="">
+        <div class="info-card">
+            <h3 class="title-card">Latest Eyewear For You</h3>
+            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+            <a class="btn-card" href="">Shop Now</a>
+        </div>
+    </div>
+    <div class="card">
+        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/footwear-free-img.webp?v=1724409184" alt="" srcset="">
+        <div class="info-card">
+            <h3 class="title-card">Let's Lorem Suit Up!</h3>
+            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.​</p>
+            <a class="btn-card" href="">Shop Now</a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "sections-cards",
+  "settings": [
+  ],
+  "presets": [
+    {
+      "category": "Content",
+      "name": "sections-cards"
+    }
+  ]
+}
+{% endschema %}

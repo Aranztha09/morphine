@@ -1,0 +1,53 @@
+.container-section-special-edition {
+    background-image: url(https://cdn.shopify.com/s/files/1/0897/6901/7625/files/banner-03_1.webp?v=1724412196);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.container-section-special-edition .info-special-edition{
+    padding: 200px 60px;
+}
+
+.container-section-special-edition .info-special-edition .title-special-edition{
+    font-family: 'Assistant';
+    color: #fff;
+    font-size: 42px;
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+.container-section-special-edition .info-special-edition .top-title, .description-special-edition, .description2, .btn-special-edition {
+    font-family: 'Assistant';
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.container-section-special-edition .info-special-edition  .description-special-edition {
+    font-size: 16px;
+    font-weight: inherit;
+    max-width: 500px;
+}
+
+.container-section-special-edition .info-special-edition .btn-special-edition {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 110px;
+    height: 42px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0;
+
+}
+
+@media (max-width:481px){
+    .container-section-special-edition .info-special-edition{
+        padding: 100px 30px;
+    }
+}
