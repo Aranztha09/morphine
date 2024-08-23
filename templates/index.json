@@ -9,44 +9,21 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "disabled": true,
+    "new_hero_Q4CdeG": {
+      "type": "new-hero",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "image_banner": "shopify:\/\/shop_images\/home-new-bg-free-img_18a5fe42-7cdb-45fc-b0fe-4b4aee41f668.webp",
+        "title": "Raining Offers For Hot Summer!",
+        "sub-title": "25% Off On All Products",
+        "url-buttom-shop": "",
+        "text-button-shop": "SHOP NOW",
+        "url-buttom-find": "",
+        "text-button-find": "FIND MORE"
+      }
+    },
+    "sections_cards_xK8Ewr": {
+      "type": "sections-cards",
+      "settings": {
       }
     },
     "featured_collection": {
@@ -76,10 +53,23 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "section_special_edition_EphnDR": {
+      "type": "section-special-edition",
+      "settings": {
+      }
+    },
+    "section_bottom_bMQ8N8": {
+      "type": "section-bottom",
+      "settings": {
+      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "new_hero_Q4CdeG",
+    "sections_cards_xK8Ewr",
+    "featured_collection",
+    "section_special_edition_EphnDR",
+    "section_bottom_bMQ8N8"
   ]
 }
