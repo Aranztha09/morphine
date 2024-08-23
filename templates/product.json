@@ -70,7 +70,7 @@
           "type": "popup",
           "settings": {
             "text": "Detalles de envio",
-            "page": ""
+            "page": "detalles-de-envio"
           }
         }
       },
