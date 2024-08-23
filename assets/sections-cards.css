@@ -52,6 +52,25 @@
     justify-content: center;
 }
 
+
+.container-section-cards .card .info-card .btn-card:hover {
+    background-color: #ffffffc5;
+    transition: all 0.3s;
+}
+
+@media (max-width:800px){
+    .container-section-cards {
+        flex-direction: column;
+        padding: 45px 90px;
+        gap: 15px;
+    }
+
+    .container-section-cards .card {
+        width:100%;
+    }
+    
+}
+
 @media (max-width:768px){
     .container-section-cards .card .info-card .title-card {
         font-size: 18px;
@@ -60,7 +79,6 @@
 
 @media (max-width:600px){
     .container-section-cards {
-        flex-direction: column;
         padding: 45px 30px;
     }
     .container-section-cards .card {
