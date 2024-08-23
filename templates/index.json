@@ -33,10 +33,21 @@
             "text_btn_card": "Shop Now",
             "link_btn_card": ""
           }
+        },
+        "card_eFhtDa": {
+          "type": "card",
+          "settings": {
+            "image_card": "shopify:\/\/shop_images\/men-fashion-free-img.webp",
+            "title_card": "Latest Eyewear For You",
+            "sub_title_card": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.​",
+            "text_btn_card": "Shop Now",
+            "link_btn_card": ""
+          }
         }
       },
       "block_order": [
-        "card_MJUEPy"
+        "card_MJUEPy",
+        "card_eFhtDa"
       ],
       "settings": {
       }
