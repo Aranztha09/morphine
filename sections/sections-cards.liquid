@@ -1,35 +1,51 @@
 {{ 'sections-cards.css' | asset_url | stylesheet_tag }}
 <section class="container-section-cards">
-    <div class="card">
-        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/women-fashion-free-img.webp?v=1724409214" alt="" srcset="">
-        <div class="info-card">
-            <h3 class="title-card">20% Off On Tank Tops</h3>
-            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
-            <a class="btn-card" href="">Shop Now</a>
+    {%- for block in section.blocks -%}
+        <div class="card">
+            <img class="img-card" src="{{ block.settings.image_card | img_url: 'master' }}" alt="" srcset="">
+            <div class="info-card">
+                <h3 class="title-card">{{ block.settings.title_card }}</h3>
+                <p class="description-card">{{ block.settings.sub_title_card }}</p>
+                <a class="btn-card" href="{{ block.settings.link_btn_card }}">{{ block.settings.text_btn_card }}</a>
+            </div>
         </div>
-    </div>
-    <div class="card">
-        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/men-fashion-free-img.webp?v=1724409184" alt="" srcset="">
-        <div class="info-card">
-            <h3 class="title-card">Latest Eyewear For You</h3>
-            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
-            <a class="btn-card" href="">Shop Now</a>
-        </div>
-    </div>
-    <div class="card">
-        <img class="img-card" src="https://cdn.shopify.com/s/files/1/0897/6901/7625/files/footwear-free-img.webp?v=1724409184" alt="" srcset="">
-        <div class="info-card">
-            <h3 class="title-card">Let's Lorem Suit Up!</h3>
-            <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.​</p>
-            <a class="btn-card" href="">Shop Now</a>
-        </div>
-    </div>
+    {% endfor %}
 </section>
-
 {% schema %}
 {
-  "name": "sections-cards",
-  "settings": [
+    "name": "sections-cards",
+    "blocks": [
+        {
+            "type": "card",
+            "name": "card",
+            "settings": [ 
+                {
+                    "type": "image_picker",
+                    "id": "image_card",
+                    "label": "Image Card"
+                },
+                {
+                    "type": "text",
+                    "id": "title_card",
+                    "label": "Title card"
+                },
+                {
+                    "type": "text",
+                    "id": "sub_title_card",
+                    "label": "Description card"
+                },
+                {
+                    "type": "text",
+                    "id": "text_btn_card",
+                    "label": "Text btn card"
+                },
+                {
+                    "type": "url",
+                    "id": "link_btn_card",
+                    "label": "Link btn card"
+                }
+            ]
+        }
   ],
   "presets": [
     {

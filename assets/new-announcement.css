@@ -1,0 +1,52 @@
+.countdown {
+    text-align: center;
+}
+
+.countdown div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.countdown div span {
+    display: block;
+    font-size: 2rem;
+}
+
+.label {
+    font-size: 1rem;
+    color: hsl(0, 0%, 67%);
+}
+
+.offer {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 5px;
+    color: #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 48rem) {
+    .countdown div span {
+    font-size: 1.5rem;
+    }
+
+    .label {
+    font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .countdown div {
+    margin: 0 0.25rem;
+    }
+
+    .countdown div span {
+    font-size: 1.25rem;
+    }
+
+    .label {
+    font-size: 0.75rem;
+    }
+}
