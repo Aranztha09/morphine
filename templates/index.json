@@ -44,15 +44,6 @@
             "link_btn_card": ""
           }
         },
-        "card_yEM86N": {
-          "type": "card",
-          "settings": {
-            "title_card": "",
-            "sub_title_card": "",
-            "text_btn_card": "",
-            "link_btn_card": ""
-          }
-        },
         "card_QFNwmq": {
           "type": "card",
           "settings": {
@@ -67,7 +58,6 @@
       "block_order": [
         "card_MJUEPy",
         "card_eFhtDa",
-        "card_yEM86N",
         "card_QFNwmq"
       ],
       "settings": {
