@@ -65,6 +65,13 @@
             "text": "Politicas de devoluciones",
             "page": "politica-de-devoluciones"
           }
+        },
+        "popup_adNcVU": {
+          "type": "popup",
+          "settings": {
+            "text": "Detalles de envio",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -76,7 +83,8 @@
         "buy_buttons",
         "description",
         "share",
-        "popup_EeXBTy"
+        "popup_EeXBTy",
+        "popup_adNcVU"
       ],
       "settings": {
         "enable_sticky_info": true,
