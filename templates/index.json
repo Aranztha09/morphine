@@ -23,6 +23,21 @@
     },
     "sections_cards_xK8Ewr": {
       "type": "sections-cards",
+      "blocks": {
+        "card_MJUEPy": {
+          "type": "card",
+          "settings": {
+            "image_card": "shopify:\/\/shop_images\/women-fashion-free-img.webp",
+            "title_card": "20% Off On Tank Tops",
+            "sub_title_card": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.",
+            "text_btn_card": "Shop Now",
+            "link_btn_card": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_MJUEPy"
+      ],
       "settings": {
       }
     },
